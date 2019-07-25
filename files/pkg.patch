@@ -1,6 +1,8 @@
---- ../pkg/pkg.ml	2019-04-18 21:04:12.000000000 +0530
-+++ ../pkg/pkg_new.ml	2019-07-12 18:10:37.715432344 +0530
-@@ -19,9 +19,9 @@
+diff --git a/pkg/pkg.ml b/pkg/pkg.ml
+index aec5fb9..0a353a1 100755
+--- a/pkg/pkg.ml
++++ b/pkg/pkg.ml
+@@ -19,9 +19,9 @@ let () =
         Pkg.mllib ~cond:jsoo "src/logs_browser.mllib";
         Pkg.mllib ~cond:cmdliner "src/logs_cli.mllib";
         Pkg.mllib ~cond:lwt "src/logs_lwt.mllib";

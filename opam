@@ -57,5 +57,10 @@ build: [[
           "--toolchain" "riscv"]]
 
 install: [["opam-installer" "--prefix=%{prefix}%/riscv-sysroot" "logs.install"]]
-extra-files: ["pkg.patch" "md5=7c1b48129864f6766857d6ac754c9fba"]
+extra-files: ["pkg.patch" "md5=b502fa823a9701b236cb2f6d006978f5"]
 patches: [ "pkg.patch" ]
+
+url {
+  src: "https://erratique.ch/software/logs/releases/logs-0.6.3.tbz"
+  checksum: "md5=370e4c802588f73d0777c59bc414b57b"
+}
