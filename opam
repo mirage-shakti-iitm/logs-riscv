@@ -50,9 +50,9 @@ conflicts: [
 build: [[
   "ocaml" "pkg/pkg.ml" "build"
           "--pinned" "%{pinned}%"
-          "--with-js_of_ocaml" "false"
+          "--with-js_of_ocaml" "%{js_of_ocaml-riscv:installed}%"
           "--with-fmt" "%{fmt-riscv:installed}%"
-          "--with-cmdliner" "true"
+          "--with-cmdliner" "%{cmdliner-riscv:installed}%"
           "--with-lwt" "%{lwt-riscv:installed}%" 
           "--toolchain" "riscv"]]
 
