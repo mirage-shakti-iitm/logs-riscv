@@ -1243,52 +1243,52 @@ camlLogs_lwt__frametable:
 	.align	3
 L237:
 	.long	(L240 - .) + 0x60000000
-	.long	0x20102
-	.quad	0
-	.align	3
-L231:
-	.long	(L240 - .) + 0x4c000000
-	.long	0x4c100
-	.quad	0
-	.align	3
-L236:
-	.long	(L240 - .) + 0x5c000000
-	.long	0x232b1
+	.long	0x21102
 	.quad	0
 	.align	3
 L234:
 	.long	(L240 - .) + 0x64000000
-	.long	0x2a1d1
-	.quad	0
-	.align	3
-L238:
-	.long	(L240 - .) + 0x74000000
-	.long	0x130a0
-	.quad	0
-	.align	3
-L230:
-	.long	(L240 - .) + 0x5c000000
-	.long	0x4f140
-	.quad	0
-	.align	3
-L239:
-	.long	(L240 - .) + 0x90000000
-	.long	0x12190
-	.quad	0
-	.align	3
-L232:
-	.long	(L240 - .) + 0x84000000
-	.long	0x441e0
+	.long	0x2b1d1
 	.quad	0
 	.align	3
 L235:
 	.long	(L240 - .) + 0x84000000
-	.long	0x27102
+	.long	0x28102
+	.quad	0
+	.align	3
+L231:
+	.long	(L240 - .) + 0x4c000000
+	.long	0x4d100
+	.quad	0
+	.align	3
+L236:
+	.long	(L240 - .) + 0x5c000000
+	.long	0x242b1
+	.quad	0
+	.align	3
+L232:
+	.long	(L240 - .) + 0x84000000
+	.long	0x451e0
+	.quad	0
+	.align	3
+L230:
+	.long	(L240 - .) + 0x5c000000
+	.long	0x50140
 	.quad	0
 	.align	3
 L233:
 	.long	(L240 - .) + 0xb0000000
-	.long	0x440c0
+	.long	0x450c0
+	.quad	0
+	.align	3
+L239:
+	.long	(L240 - .) + 0x90000000
+	.long	0x13190
+	.quad	0
+	.align	3
+L238:
+	.long	(L240 - .) + 0x74000000
+	.long	0x140a0
 	.quad	0
 L240:
 	.byte	115,114,99,47,108,111,103,115,95,108,119,116,46,109,108,0
