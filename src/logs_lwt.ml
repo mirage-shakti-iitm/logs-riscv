@@ -3,6 +3,7 @@
    Distributed under the ISC license, see terms at the end of the file.
    logs v0.6.3
   ---------------------------------------------------------------------------*)
+open Logs_lwt_cap_tee
 
 type 'a log = ('a, unit Lwt.t) Logs.msgf -> unit Lwt.t
 

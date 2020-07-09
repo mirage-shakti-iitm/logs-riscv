@@ -3,6 +3,7 @@
    Distributed under the ISC license, see terms at the end of the file.
    logs v0.6.3
   ---------------------------------------------------------------------------*)
+open Logs_cap_tee
 
 let strf = Format.asprintf
 
