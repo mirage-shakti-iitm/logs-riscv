@@ -47,7 +47,9 @@ depopts: [
 conflicts: [
   "js_of_ocaml" { < "3.3.0" } ]
 
-build: [[
+build: [
+  [make "add-cap-files"]
+  [
   "ocaml" "pkg/pkg.ml" "build"
           "--pinned" "%{pinned}%"
           "--with-js_of_ocaml" "%{js_of_ocaml-riscv:installed}%"
