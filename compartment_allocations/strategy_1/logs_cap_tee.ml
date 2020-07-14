@@ -71,6 +71,6 @@ camlLogs__info:14
 camlLogs__debug:14
 camlLogs__on_error:14
 camlLogs__on_error_msg:14
-camlLogs_:255
+camlLogs_:114
 camlLogs__fun:14
 *)
