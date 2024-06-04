@@ -1,4 +1,4 @@
-true : bin_annot, safe_string, default_compartment_id(6), function_sections
+true : bin_annot, safe_string, default_compartment_id(24), function_sections
 <src> : include
 <src/logs_fmt*> : package(fmt)
 <src/logs_browser*> : package(js_of_ocaml)
